@@ -1,23 +1,13 @@
-import logo from './logo.svg';
+import { Aside } from './components/Aside/Aside.js';
+import { Content } from './components/Content/Content.js';
+import Api from '../src/components/Api/Api.js';
 import './App.css';
 
-function App() {
+const App = ()=> {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Aside></Aside>
+      <Content></Content> 
     </div>
   );
 }
