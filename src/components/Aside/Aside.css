@@ -3,13 +3,26 @@
     width: 25%;
     height: 100vh;
     background-color: var(--background-white);
-    display: flex;
+    display: none;
     align-items: flex-start;
     justify-content: center;
     padding: 100px 0;
     position: fixed;
     z-index: 1000;
 }
+
+.Aside.active{
+    display: flex;
+}
+
+.Aside.active ~ .Content{
+    width: calc(100% - 25%);
+}
+
+.Aside ~ .Content{
+    width: 100%;
+}
+
 .Aside input{
     width: 80%;
     height: 40px;

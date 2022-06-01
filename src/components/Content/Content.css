@@ -1,7 +1,7 @@
 @import '../../variables.css';
 
 .Content{
-    width: calc(100% - 25%);
+    transition:all .5s;
     min-height: 100vh;
     padding: 100px 0;
     background-color: var(--color-black);
@@ -13,6 +13,19 @@
     position: absolute;
     right: 0;
     top: 0;
+}
+
+.Content button{
+    position: absolute;
+    right: 100px;
+    top: 30px;
+
+    padding: 10px;
+    font-size: 1em;
+    background-color: var(--background-yellow);
+    border-radius: 10px;
+    border: transparent;
+    cursor: pointer;
 }
 
 .subContent{
@@ -55,6 +68,7 @@
 
 .wellc h1{
     font-size: 3em;
+    text-align: center;
     color: var(--background-yellow);
 }
 .wellc img{
@@ -78,6 +92,7 @@
 .notFound h2{
     font-size: 3em;
     color: var(--background-yellow);
+    text-align: center;
 }
 
 .notFound{
@@ -86,4 +101,23 @@
 
 .notFound.active{
     display: flex;
+}
+
+@media screen and (max-width: 860px){
+    .wellc img{
+        width: 90%;
+    }
+    .notFound img{
+        width: 90%;
+    }
+
+    .Aside{
+        min-width: 50%;
+    }
+}
+
+@media screen and (max-width: 520px){
+    .Aside.active ~ .Content{
+        width: 100%;
+    }
 }
