@@ -1,0 +1,21 @@
+.pageNot {
+  background-color: $black !important;
+  @include flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+  h1 {
+    font-size: 2.5rem;
+    color: $yellow;
+
+    span {
+      color: $white;
+    }
+  }
+
+  img {
+    max-width: 400px;
+    width: 100%;
+  }
+}

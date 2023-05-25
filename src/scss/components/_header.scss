@@ -1,0 +1,44 @@
+.c-header {
+  width: 100%;
+  background-color: $black;
+  @include flex;
+  flex-direction: column;
+  padding: 30px;
+
+  form {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    input {
+      width: 80%;
+      height: 45px;
+      padding: 0 30px;
+      border-top-left-radius: 5px;
+      border-bottom-left-radius: 5px;
+      border: 1px solid $yellow;
+      font-size: 1rem;
+      outline: none;
+      transition: all 0.25s;
+      background-color: $white;
+      color: $black;
+
+      &::placeholder {
+        color: $black;
+      }
+    }
+    button {
+      border: 1px solid $yellow;
+      border-top-right-radius: 5px;
+      border-bottom-right-radius: 5px;
+      height: 45px;
+      padding: 0 30px;
+      font-size: 1rem;
+      background-color: $black;
+      color: $yellow;
+      cursor: pointer;
+    }
+  }
+}

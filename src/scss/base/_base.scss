@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: IBM Plex Mono, monospace;
+}
+body {
+  width: 100%;
+  min-height: 100vh;
+
+  .container {
+    width: 100%;
+    min-height: 100vh;
+    padding: 30px;
+    position: absolute;
+    background-color: $white;
+    right: 0;
+  }
+}
