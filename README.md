@@ -1,13 +1,19 @@
-# Galeria de imagens
-<p>Galeria de imagens, Desenvolvida com reactJS</p>
-<hr/>
+# Galeria de Fotos
+<p>
+Bem-vindo ao repositório da Galeria de Fotos! Neste projeto, você encontrará uma aplicação web para visualizar e compartilhar fotos. A Galeria de Fotos é uma plataforma onde os usuários podem procurar uma imagem e compartilhá-la com outras pessoas. É uma maneira fácil e conveniente.
+</p>
+<a href="https://galeria-fotos-rose.vercel.app/">Acesse aqui</a>
 
-<img src="src/img/site.png" />
+## Características
+- Visualização de Fotos
+- Compartilhamento de Fotos
+- Pesquisa de Fotos
 
-## Tecnologias utilizadas
-- Html5
-- Css3
-- Js
-- reactJS
+## Tecnologias Utilizadas
+- ReactJS
+- Scss
+- React Router
+- React Hooks
 
-<a href="https://galeria-fotos-rose.vercel.app/">Veja aqui</a>
+### Autor
+<span>A Galeria de Fotos foi desenvolvida por <b>Luciano Garcia</b></span>
